@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body {
+  font-family: "나눔 고딕", NanumGothic, "돋움", Dotum, sans-serif;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #000;
+  min-width: 1080px;
+}
+
+.header_title {
+  font-size: 40px;
+  color: #fff;
+  margin: 0 auto;
+  width: 1040px;
+  height: 120px;
+  line-height: 120px;
+  padding-left: 40px;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+main .buttons {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+main .buttons .button {
+  display: inline-block;
+  text-decoration: none;
+  width: 322px;
+  height: 33px;
+  border: 1px solid #d1d1d1;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+  text-align: center;
+  line-height: 33px;
+}
+
+main .buttons .button:hover {
+  border-color: #454545;
+  font-weight: bold;
+}
+
+main .buttons .button:nth-child(2) {
+  margin: 0 14px;
+}
+
+main .main_title {
+  font-size: 20px;
+  color: #000;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #454545;
+}
+
+main .elements {
+  width: 1000px;
+}
+
+main .elements .element {
+  border: 1px solid #d1d1d1;
+  margin-top: 30px;
+}
+
+main .elements .element .element_title {
+  font-size: 16px;
+  color: #333;
+  background-color: #f7f7f7;
+  padding-left: 15px;
+  margin: 0;
+  height: 46px;
+  line-height: 46px;
+}
+
+main .elements .element .content {
+  border-top: 1px solid #d1d1d1;
+  font-size: 12px;
+  color: #000;
+  padding: 30px;
+}
+
+footer {
+  min-width: 1080px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 20px;
+  border-top: 1px solid #d1d1d1;
+  margin-bottom: 50px;
+}
+
+footer .info1 {
+  color: #999;
+}
+
+footer .info2 {
+  color: #000;
+}
